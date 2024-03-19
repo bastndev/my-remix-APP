@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <section className="flex">
-      <div >
+      <div>
         <p className="uppercase text-xs underline decoration-blue-500 
         tracking-wider mb-2">
           Professional Record</p>

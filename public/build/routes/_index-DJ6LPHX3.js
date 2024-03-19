@@ -29,7 +29,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\components\\Hero.tsx"
   );
-  import.meta.hot.lastModified = "1710825045808.4978";
+  import.meta.hot.lastModified = "1710825897311.3533";
 }
 function Hero() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", { className: "flex", children: [
@@ -147,12 +147,18 @@ if (import.meta) {
     //@ts-expect-error
     "app\\routes\\_index.tsx"
   );
-  import.meta.hot.lastModified = "1710823488673.7312";
+  import.meta.hot.lastModified = "1710826434417.7764";
 }
 function Index() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("main", { className: "max-w-[720px] py-20 mx-auto", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Hero, {}, void 0, false, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { style: {
+    background: `repeating-linear-gradient(0deg, rgb(236,236,236) 0px, rgb(236,236,236) 2px, transparent 2px, transparent 24px), repeating-linear-gradient(90deg, rgb(236,236,236) 0px, rgb(236,236,236) 2px, transparent 2px, transparent 24px), linear-gradient(white, white);`
+  }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("main", { className: "max-w-[720px] py-20 mx-auto ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Hero, {}, void 0, false, {
     fileName: "app/routes/_index.tsx",
-    lineNumber: 24,
+    lineNumber: 28,
+    columnNumber: 9
+  }, this) }, void 0, false, {
+    fileName: "app/routes/_index.tsx",
+    lineNumber: 27,
     columnNumber: 7
   }, this) }, void 0, false, {
     fileName: "app/routes/_index.tsx",
@@ -168,4 +174,4 @@ window.$RefreshSig$ = prevRefreshSig;
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/_index-23JOZYFW.js.map
+//# sourceMappingURL=/build/routes/_index-DJ6LPHX3.js.map
