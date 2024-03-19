@@ -9,7 +9,7 @@ export default function Navbar() {
         background: "rgba(0, 0, 0, 0.6)",
       }}
     >
-      <img className="rounded-full w-12 h-12" src="logo.jpg" alt="Logo" />
+      <img className="rounded-full w-12 h-12" src="favicon.ico" alt="Logo" />
       <div className="space-x-6 text-gray-300">
         <a className="no-select opacity-70" href="/" rel="home"> -Logo2</a>
         <a className="hover:text-white" href="#about" rel="about">About</a>

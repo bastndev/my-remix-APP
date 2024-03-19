@@ -152,7 +152,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\components\\Navbar.tsx"
   );
-  import.meta.hot.lastModified = "1710830467366.406";
+  import.meta.hot.lastModified = "1710831043066.0374";
 }
 function Navbar() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("nav", { className: "flex items-center justify-between border-gray-200 px-4 md:px-16 py-1.5", style: {
@@ -161,7 +161,7 @@ function Navbar() {
     zIndex: 1e3,
     background: "rgba(0, 0, 0, 0.6)"
   }, children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { className: "rounded-full w-12 h-12", src: "logo.jpg", alt: "Logo" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { className: "rounded-full w-12 h-12", src: "favicon.ico", alt: "Logo" }, void 0, false, {
       fileName: "app/components/Navbar.tsx",
       lineNumber: 28,
       columnNumber: 7
@@ -518,4 +518,4 @@ window.$RefreshSig$ = prevRefreshSig;
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/_index-NLAYGNW2.js.map
+//# sourceMappingURL=/build/routes/_index-JMA65EPN.js.map
