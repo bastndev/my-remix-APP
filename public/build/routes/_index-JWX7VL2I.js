@@ -1,10 +1,14 @@
 import {
+  Form
+} from "/build/_shared/chunk-P3XNUT5N.js";
+import {
   require_jsx_dev_runtime
 } from "/build/_shared/chunk-XU7DNSPJ.js";
 import {
   createHotContext
 } from "/build/_shared/chunk-YSGZJLCY.js";
 import "/build/_shared/chunk-UWV35TSL.js";
+import "/build/_shared/chunk-GIAAE3CH.js";
 import "/build/_shared/chunk-BOXFZXVX.js";
 import {
   __toESM
@@ -220,8 +224,226 @@ $RefreshReg$(_c3, "Navbar");
 window.$RefreshReg$ = prevRefreshReg;
 window.$RefreshSig$ = prevRefreshSig;
 
-// app/routes/_index.tsx
+// app/components/Section.tsx
 var import_jsx_dev_runtime3 = __toESM(require_jsx_dev_runtime(), 1);
+if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
+  console.warn("remix:hmr: React Fast Refresh only works when the Remix compiler is running in development mode.");
+} else {
+  prevRefreshReg = window.$RefreshReg$;
+  prevRefreshSig = window.$RefreshSig$;
+  window.$RefreshReg$ = (type, id) => {
+    window.$RefreshRuntime$.register(type, '"app\\\\components\\\\Section.tsx"' + id);
+  };
+  window.$RefreshSig$ = window.$RefreshRuntime$.createSignatureFunctionForTransform;
+}
+var prevRefreshReg;
+var prevRefreshSig;
+if (import.meta) {
+  import.meta.hot = createHotContext(
+    //@ts-expect-error
+    "app\\components\\Section.tsx"
+  );
+  import.meta.hot.lastModified = "1710829543827.9749";
+}
+function Section() {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("section", { className: "py-20", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h2", { className: "font-bold text-3xl text-center mb-4", children: "Why prefer us?" }, void 0, false, {
+      fileName: "app/components/Section.tsx",
+      lineNumber: 23,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { className: "text-center max-w-[500px] mx-auto mb-20 text-sm", children: "Our services are designed to provide security, quality and good service unlike others, in addition to having efficient costs." }, void 0, false, {
+      fileName: "app/components/Section.tsx",
+      lineNumber: 26,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("article", { className: "flex gap-4 justify-center", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "bg-pink-100 p-4 rounded-lg", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h3", { className: "font-medium text-lg", children: "Traditional Service \u{1F616}" }, void 0, false, {
+          fileName: "app/components/Section.tsx",
+          lineNumber: 31,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { className: "py-2 text-sm", children: "\u274C Low attention to client" }, void 0, false, {
+          fileName: "app/components/Section.tsx",
+          lineNumber: 32,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { className: "py-2 text-sm", children: "\u274C Low attention to client" }, void 0, false, {
+          fileName: "app/components/Section.tsx",
+          lineNumber: 33,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { className: "py-2 text-sm", children: "\u274C Low attention to client" }, void 0, false, {
+          fileName: "app/components/Section.tsx",
+          lineNumber: 34,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: "/assets/1.png", alt: "camera" }, void 0, false, {
+          fileName: "app/components/Section.tsx",
+          lineNumber: 35,
+          columnNumber: 11
+        }, this)
+      ] }, void 0, true, {
+        fileName: "app/components/Section.tsx",
+        lineNumber: 30,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "bg-green-100 p-4 rounded-lg", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h3", { className: "font-medium text-lg", children: "Service 2024 NICE \u{1F616}" }, void 0, false, {
+          fileName: "app/components/Section.tsx",
+          lineNumber: 38,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { className: "py-2 text-sm", children: "\u2705 Next level client" }, void 0, false, {
+          fileName: "app/components/Section.tsx",
+          lineNumber: 39,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { className: "py-2 text-sm", children: "\u2705 Next level client" }, void 0, false, {
+          fileName: "app/components/Section.tsx",
+          lineNumber: 40,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { className: "py-2 text-sm", children: "\u2705 Next level client" }, void 0, false, {
+          fileName: "app/components/Section.tsx",
+          lineNumber: 41,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: "/assets/production-artist.png", alt: "camera" }, void 0, false, {
+          fileName: "app/components/Section.tsx",
+          lineNumber: 42,
+          columnNumber: 11
+        }, this)
+      ] }, void 0, true, {
+        fileName: "app/components/Section.tsx",
+        lineNumber: 37,
+        columnNumber: 9
+      }, this)
+    ] }, void 0, true, {
+      fileName: "app/components/Section.tsx",
+      lineNumber: 29,
+      columnNumber: 7
+    }, this)
+  ] }, void 0, true, {
+    fileName: "app/components/Section.tsx",
+    lineNumber: 22,
+    columnNumber: 10
+  }, this);
+}
+_c4 = Section;
+var _c4;
+$RefreshReg$(_c4, "Section");
+window.$RefreshReg$ = prevRefreshReg;
+window.$RefreshSig$ = prevRefreshSig;
+
+// app/components/Form.tsx
+var import_jsx_dev_runtime4 = __toESM(require_jsx_dev_runtime(), 1);
+if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
+  console.warn("remix:hmr: React Fast Refresh only works when the Remix compiler is running in development mode.");
+} else {
+  prevRefreshReg = window.$RefreshReg$;
+  prevRefreshSig = window.$RefreshSig$;
+  window.$RefreshReg$ = (type, id) => {
+    window.$RefreshRuntime$.register(type, '"app\\\\components\\\\Form.tsx"' + id);
+  };
+  window.$RefreshSig$ = window.$RefreshRuntime$.createSignatureFunctionForTransform;
+}
+var prevRefreshReg;
+var prevRefreshSig;
+if (import.meta) {
+  import.meta.hot = createHotContext(
+    //@ts-expect-error
+    "app\\components\\Form.tsx"
+  );
+  import.meta.hot.lastModified = "1710829263658.0212";
+}
+function ContactForm({
+  error
+}) {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(Form, { method: "post", className: "flex flex-col", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(TextField, { label: "Tu nombre:", placeholder: "Escribe tu nombre", name: "name" }, void 0, false, {
+      fileName: "app/components/Form.tsx",
+      lineNumber: 26,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(TextField, { label: "Tu correo:", placeholder: "Escribe tu correo", name: "email", error }, void 0, false, {
+      fileName: "app/components/Form.tsx",
+      lineNumber: 27,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(TextField, { label: "Tu mensaje:", placeholder: "Escribe tu mensaje", name: "message", type: "textarea" }, void 0, false, {
+      fileName: "app/components/Form.tsx",
+      lineNumber: 28,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(Button2, { children: "Enviar" }, void 0, false, {
+      fileName: "app/components/Form.tsx",
+      lineNumber: 31,
+      columnNumber: 7
+    }, this)
+  ] }, void 0, true, {
+    fileName: "app/components/Form.tsx",
+    lineNumber: 25,
+    columnNumber: 10
+  }, this);
+}
+_c5 = ContactForm;
+var TextField = ({
+  name,
+  placeholder,
+  type = "text",
+  label,
+  error
+}) => {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_jsx_dev_runtime4.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("label", { className: "text-lg mb-4", htmlFor: "name", children: label }, void 0, false, {
+      fileName: "app/components/Form.tsx",
+      lineNumber: 43,
+      columnNumber: 7
+    }, this),
+    type === "textarea" ? /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("textarea", { className: "border border-blue-500 px-4 py-2 text-lg text-slate-700 rounded-md mb-8", placeholder, name, id: name, cols: 30, rows: 10 }, void 0, false, {
+      fileName: "app/components/Form.tsx",
+      lineNumber: 46,
+      columnNumber: 30
+    }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("input", { className: "border border-blue-500 px-4 py-2 text-lg text-slate-700 rounded-md mb-8", type, name, placeholder, id: name }, void 0, false, {
+      fileName: "app/components/Form.tsx",
+      lineNumber: 46,
+      columnNumber: 206
+    }, this),
+    error && /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("p", { className: "text-red-500 text-lg", children: error }, void 0, false, {
+      fileName: "app/components/Form.tsx",
+      lineNumber: 47,
+      columnNumber: 17
+    }, this)
+  ] }, void 0, true, {
+    fileName: "app/components/Form.tsx",
+    lineNumber: 42,
+    columnNumber: 10
+  }, this);
+};
+_c22 = TextField;
+var Button2 = ({
+  children
+}) => {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("button", { className: "py-2 px-4 bg-blue-500 text-white rounded-full font-semibold my-3 hover:bg-blue-600 transition-all duration-300 ease-in-out active:scale-95", children }, void 0, false, {
+    fileName: "app/components/Form.tsx",
+    lineNumber: 54,
+    columnNumber: 10
+  }, this);
+};
+_c32 = Button2;
+var _c5;
+var _c22;
+var _c32;
+$RefreshReg$(_c5, "ContactForm");
+$RefreshReg$(_c22, "TextField");
+$RefreshReg$(_c32, "Button");
+window.$RefreshReg$ = prevRefreshReg;
+window.$RefreshSig$ = prevRefreshSig;
+
+// app/routes/_index.tsx
+var import_jsx_dev_runtime5 = __toESM(require_jsx_dev_runtime(), 1);
 if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
   console.warn("remix:hmr: React Fast Refresh only works when the Remix compiler is running in development mode.");
 } else {
@@ -239,38 +461,50 @@ if (import.meta) {
     //@ts-expect-error
     "app\\routes\\_index.tsx"
   );
-  import.meta.hot.lastModified = "1710828288721.9065";
+  import.meta.hot.lastModified = "1710829226174.7722";
 }
 function Index() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { style: {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { style: {
     background: `repeating-linear-gradient(0deg, rgb(236,236,236) 0px, rgb(236,236,236) 2px, transparent 2px, transparent 24px), repeating-linear-gradient(90deg, rgb(236,236,236) 0px, rgb(236,236,236) 2px, transparent 2px, transparent 24px), linear-gradient(white, white);`
   }, children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Navbar, {}, void 0, false, {
-      fileName: "app/routes/_index.tsx",
-      lineNumber: 28,
-      columnNumber: 9
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("main", { className: "max-w-[720px] py-14 mx-auto ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Hero, {}, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(Navbar, {}, void 0, false, {
       fileName: "app/routes/_index.tsx",
       lineNumber: 30,
-      columnNumber: 9
-    }, this) }, void 0, false, {
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("main", { className: "max-w-[720px] py-14 mx-auto ", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(Hero, {}, void 0, false, {
+        fileName: "app/routes/_index.tsx",
+        lineNumber: 32,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(Section, {}, void 0, false, {
+        fileName: "app/routes/_index.tsx",
+        lineNumber: 33,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(ContactForm, { error: "" }, void 0, false, {
+        fileName: "app/routes/_index.tsx",
+        lineNumber: 34,
+        columnNumber: 9
+      }, this)
+    ] }, void 0, true, {
       fileName: "app/routes/_index.tsx",
-      lineNumber: 29,
+      lineNumber: 31,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
     fileName: "app/routes/_index.tsx",
-    lineNumber: 24,
+    lineNumber: 26,
     columnNumber: 10
   }, this);
 }
-_c4 = Index;
-var _c4;
-$RefreshReg$(_c4, "Index");
+_c6 = Index;
+var _c6;
+$RefreshReg$(_c6, "Index");
 window.$RefreshReg$ = prevRefreshReg;
 window.$RefreshSig$ = prevRefreshSig;
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/_index-MUVXJTVU.js.map
+//# sourceMappingURL=/build/routes/_index-JWX7VL2I.js.map

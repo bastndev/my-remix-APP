@@ -347,6 +347,12 @@ video {
 .mb-9 {
   margin-bottom: 2.25rem;
 }
+.mb-8 {
+  margin-bottom: 2rem;
+}
+.mb-20 {
+  margin-bottom: 5rem;
+}
 .flex {
   display: flex;
 }
@@ -371,11 +377,23 @@ video {
 .max-w-\[720px\] {
   max-width: 720px;
 }
+.max-w-\[500px\] {
+  max-width: 500px;
+}
+.flex-col {
+  flex-direction: column;
+}
 .items-center {
   align-items: center;
 }
+.justify-center {
+  justify-content: center;
+}
 .justify-between {
   justify-content: space-between;
+}
+.gap-4 {
+  gap: 1rem;
 }
 .space-x-1 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
@@ -399,9 +417,16 @@ video {
 .rounded-lg {
   border-radius: .5rem;
 }
+.border {
+  border-width: 1px;
+}
 .border-gray-200 {
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
+}
+.border-blue-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(59 130 246 / var(--tw-border-opacity));
 }
 .bg-red-400 {
   --tw-bg-opacity: 1;
@@ -414,6 +439,18 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.bg-green-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 252 231 / var(--tw-bg-opacity));
+}
+.bg-pink-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 231 243 / var(--tw-bg-opacity));
+}
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 .p-4 {
   padding: 1rem;
@@ -450,6 +487,9 @@ video {
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
 }
+.text-center {
+  text-align: center;
+}
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
@@ -465,6 +505,10 @@ video {
 .text-sm {
   font-size: .875rem;
   line-height: 1.25rem;
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 .font-bold {
   font-weight: 700;
@@ -526,6 +570,14 @@ video {
 }
 .text-white\/10 {
   color: #ffffff1a;
+}
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+.text-slate-700 {
+  --tw-text-opacity: 1;
+  color: rgb(51 65 85 / var(--tw-text-opacity));
 }
 .underline {
   text-decoration-line: underline;
@@ -631,4 +683,4 @@ video {
 .rtl\:space-x-reverse:where([dir="rtl"], [dir="rtl"] *) > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 1;
 }
-/*# sourceMappingURL=/build/_assets/style-ZVTJ4VOL.css.map */
+/*# sourceMappingURL=/build/_assets/style-F4ALL5IL.css.map */

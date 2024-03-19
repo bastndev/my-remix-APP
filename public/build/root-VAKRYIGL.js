@@ -19,7 +19,7 @@ import {
 } from "/build/_shared/chunk-PNG5AS42.js";
 
 // app/styles/style.css
-var style_default = "/build/_assets/style-D2SLHT2P.css";
+var style_default = "/build/_assets/style-LF5T6X33.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime(), 1);
@@ -120,4 +120,4 @@ export {
   App as default,
   links
 };
-//# sourceMappingURL=/build/root-UPXDTXHM.js.map
+//# sourceMappingURL=/build/root-VAKRYIGL.js.map
