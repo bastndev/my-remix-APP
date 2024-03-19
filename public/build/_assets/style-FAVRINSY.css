@@ -323,6 +323,9 @@ video {
   --tw-backdrop-saturate: ;
   --tw-backdrop-sepia: ;
 }
+.sticky {
+  position: sticky;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -417,6 +420,10 @@ video {
 .rounded-lg {
   border-radius: .5rem;
 }
+.rounded-s-full {
+  border-start-start-radius: 9999px;
+  border-end-start-radius: 9999px;
+}
 .border {
   border-width: 1px;
 }
@@ -451,6 +458,10 @@ video {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+.bg-orange-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
 }
 .p-4 {
   padding: 1rem;
@@ -579,6 +590,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(51 65 85 / var(--tw-text-opacity));
 }
+.text-orange-500 {
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity));
+}
 .underline {
   text-decoration-line: underline;
 }
@@ -683,4 +698,4 @@ video {
 .rtl\:space-x-reverse:where([dir="rtl"], [dir="rtl"] *) > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 1;
 }
-/*# sourceMappingURL=/build/_assets/style-F4ALL5IL.css.map */
+/*# sourceMappingURL=/build/_assets/style-63PA5LTA.css.map */

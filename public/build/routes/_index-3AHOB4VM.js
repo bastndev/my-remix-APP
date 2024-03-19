@@ -34,7 +34,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\components\\Hero.tsx"
   );
-  import.meta.hot.lastModified = "1710828264757.51";
+  import.meta.hot.lastModified = "1710830686663.8657";
 }
 function Hero() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", { className: "flex", children: [
@@ -46,7 +46,7 @@ function Hero() {
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { className: "font-bold text-3xl mb-4", children: [
         "We need record your podcast, you focus in,",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { className: "text-blue-500", children: "Creative" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { className: "text-orange-500", children: "Creative" }, void 0, false, {
           fileName: "app/components/Hero.tsx",
           lineNumber: 28,
           columnNumber: 11
@@ -104,7 +104,7 @@ function Hero() {
       lineNumber: 23,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("video", { className: "aspect-video max-w-[400px] rounded-md", loop: true, autoPlay: true, src: "assets/video.mp4" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("video", { className: "aspect-video max-w-[400px] rounded-full", muted: true, loop: true, autoPlay: true, src: "assets/video.mp4" }, void 0, false, {
       fileName: "app/components/Hero.tsx",
       lineNumber: 41,
       columnNumber: 7
@@ -119,7 +119,7 @@ _c = Hero;
 var Button = ({
   children
 }) => {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", { className: "py-2 px-4 bg-blue-500 text-white rounded-full font-semibold my-3 hover:bg-blue-600 transition-all duration-300 ease-in-out active:scale-95", children }, void 0, false, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", { className: "py-2 px-4 bg-orange-500 text-white rounded-full font-semibold my-3 hover:bg-blue-600 transition-all duration-300 ease-in-out active:scale-95", children }, void 0, false, {
     fileName: "app/components/Hero.tsx",
     lineNumber: 48,
     columnNumber: 10
@@ -152,14 +152,14 @@ if (import.meta) {
     //@ts-expect-error
     "app\\components\\Navbar.tsx"
   );
-  import.meta.hot.lastModified = "1710828461452.8247";
+  import.meta.hot.lastModified = "1710830467366.406";
 }
 function Navbar() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("nav", { className: "flex items-center justify-between border-gray-200 px-4 md:px-16 py-1.5", style: {
-    background: "rgba(0, 0, 0, 1)",
-    borderBottom: "1px solid #1b1c23",
-    boxShadow: "0 1px 6px rgba(109, 109, 109, 0.1)",
-    backdropFilter: "blur(1px)"
+    position: "sticky",
+    top: 0,
+    zIndex: 1e3,
+    background: "rgba(0, 0, 0, 0.6)"
   }, children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { className: "rounded-full w-12 h-12", src: "logo.jpg", alt: "Logo" }, void 0, false, {
       fileName: "app/components/Navbar.tsx",
@@ -358,7 +358,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\components\\Form.tsx"
   );
-  import.meta.hot.lastModified = "1710830195433.9905";
+  import.meta.hot.lastModified = "1710830720004.7812";
 }
 function ContactForm({
   error
@@ -434,7 +434,7 @@ var Button2 = ({
   const handleClick = () => {
     navigate(to);
   };
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("button", { className: "py-2 px-4 bg-blue-500 text-white rounded-full font-semibold my-3 hover:bg-blue-600 transition-all duration-300 ease-in-out active:scale-95", onClick: handleClick, children }, void 0, false, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("button", { className: "py-2 px-4 bg-orange-500 text-white rounded-full font-semibold my-3 hover:bg-blue-600 transition-all duration-300 ease-in-out active:scale-95", onClick: handleClick, children }, void 0, false, {
     fileName: "app/components/Form.tsx",
     lineNumber: 60,
     columnNumber: 10
@@ -518,4 +518,4 @@ window.$RefreshSig$ = prevRefreshSig;
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/_index-ZTIX2OBD.js.map
+//# sourceMappingURL=/build/routes/_index-3AHOB4VM.js.map

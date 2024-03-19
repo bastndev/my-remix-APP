@@ -3,10 +3,10 @@ export default function Navbar() {
     <nav
       className="flex items-center justify-between border-gray-200 px-4 md:px-16 py-1.5"
       style={{
-        background: "rgba(0, 0, 0, 1)",
-        borderBottom: "1px solid #1b1c23",
-        boxShadow: "0 1px 6px rgba(109, 109, 109, 0.1)",
-        backdropFilter: "blur(1px)"
+        position: 'sticky',
+        top: 0,
+        zIndex: 1000,
+        background: "rgba(0, 0, 0, 0.6)",
       }}
     >
       <img className="rounded-full w-12 h-12" src="logo.jpg" alt="Logo" />

@@ -76,7 +76,7 @@ const Button = ({ children, to }: { children: React.ReactNode, to: string }) => 
 
   return (
     <button 
-      className="py-2 px-4 bg-blue-500 text-white rounded-full font-semibold my-3 hover:bg-blue-600 transition-all duration-300 ease-in-out active:scale-95"
+      className="py-2 px-4 bg-orange-500 text-white rounded-full font-semibold my-3 hover:bg-blue-600 transition-all duration-300 ease-in-out active:scale-95"
       onClick={handleClick}
     >
       {children}
