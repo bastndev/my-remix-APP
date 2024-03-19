@@ -358,7 +358,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\components\\Form.tsx"
   );
-  import.meta.hot.lastModified = "1710830720004.7812";
+  import.meta.hot.lastModified = "1710830987427.911";
 }
 function ContactForm({
   error
@@ -472,7 +472,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\routes\\_index.tsx"
   );
-  import.meta.hot.lastModified = "1710829226174.7722";
+  import.meta.hot.lastModified = "1710830964186.0227";
 }
 function Index() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { style: {
@@ -518,4 +518,4 @@ window.$RefreshSig$ = prevRefreshSig;
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/_index-3AHOB4VM.js.map
+//# sourceMappingURL=/build/routes/_index-NLAYGNW2.js.map
