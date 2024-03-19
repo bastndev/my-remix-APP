@@ -1,6 +1,8 @@
 import {
-  Form
-} from "/build/_shared/chunk-P3XNUT5N.js";
+  Form,
+  useNavigate
+} from "/build/_shared/chunk-QDNT6KXM.js";
+import "/build/_shared/chunk-GIAAE3CH.js";
 import {
   require_jsx_dev_runtime
 } from "/build/_shared/chunk-XU7DNSPJ.js";
@@ -8,7 +10,6 @@ import {
   createHotContext
 } from "/build/_shared/chunk-YSGZJLCY.js";
 import "/build/_shared/chunk-UWV35TSL.js";
-import "/build/_shared/chunk-GIAAE3CH.js";
 import "/build/_shared/chunk-BOXFZXVX.js";
 import {
   __toESM
@@ -33,7 +34,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\components\\Hero.tsx"
   );
-  import.meta.hot.lastModified = "1710828261248.6587";
+  import.meta.hot.lastModified = "1710828264757.51";
 }
 function Hero() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", { className: "flex", children: [
@@ -243,7 +244,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\components\\Section.tsx"
   );
-  import.meta.hot.lastModified = "1710829543827.9749";
+  import.meta.hot.lastModified = "1710829569221.8542";
 }
 function Section() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("section", { className: "py-20", children: [
@@ -351,40 +352,41 @@ if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
 }
 var prevRefreshReg;
 var prevRefreshSig;
+var _s = $RefreshSig$();
 if (import.meta) {
   import.meta.hot = createHotContext(
     //@ts-expect-error
     "app\\components\\Form.tsx"
   );
-  import.meta.hot.lastModified = "1710829263658.0212";
+  import.meta.hot.lastModified = "1710830195433.9905";
 }
 function ContactForm({
   error
 }) {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(Form, { method: "post", className: "flex flex-col", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(TextField, { label: "Tu nombre:", placeholder: "Escribe tu nombre", name: "name" }, void 0, false, {
-      fileName: "app/components/Form.tsx",
-      lineNumber: 26,
-      columnNumber: 7
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(TextField, { label: "Tu correo:", placeholder: "Escribe tu correo", name: "email", error }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(TextField, { label: "Name:", placeholder: "Name please", name: "name" }, void 0, false, {
       fileName: "app/components/Form.tsx",
       lineNumber: 27,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(TextField, { label: "Tu mensaje:", placeholder: "Escribe tu mensaje", name: "message", type: "textarea" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(TextField, { label: "Email:", placeholder: "Email please", name: "email", error }, void 0, false, {
       fileName: "app/components/Form.tsx",
       lineNumber: 28,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(Button2, { children: "Enviar" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(TextField, { label: "Message here:", placeholder: "Rite a message", name: "message", type: "textarea" }, void 0, false, {
+      fileName: "app/components/Form.tsx",
+      lineNumber: 29,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(Button2, { to: "/some/path", children: "Submit" }, void 0, false, {
       fileName: "app/components/Form.tsx",
       lineNumber: 31,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
     fileName: "app/components/Form.tsx",
-    lineNumber: 25,
+    lineNumber: 26,
     columnNumber: 10
   }, this);
 }
@@ -424,14 +426,23 @@ var TextField = ({
 };
 _c22 = TextField;
 var Button2 = ({
-  children
+  children,
+  to
 }) => {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("button", { className: "py-2 px-4 bg-blue-500 text-white rounded-full font-semibold my-3 hover:bg-blue-600 transition-all duration-300 ease-in-out active:scale-95", children }, void 0, false, {
+  _s();
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate(to);
+  };
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("button", { className: "py-2 px-4 bg-blue-500 text-white rounded-full font-semibold my-3 hover:bg-blue-600 transition-all duration-300 ease-in-out active:scale-95", onClick: handleClick, children }, void 0, false, {
     fileName: "app/components/Form.tsx",
-    lineNumber: 54,
+    lineNumber: 60,
     columnNumber: 10
   }, this);
 };
+_s(Button2, "CzcTeTziyjMsSrAVmHuCCb6+Bfg=", false, function() {
+  return [useNavigate];
+});
 _c32 = Button2;
 var _c5;
 var _c22;
@@ -507,4 +518,4 @@ window.$RefreshSig$ = prevRefreshSig;
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/_index-JWX7VL2I.js.map
+//# sourceMappingURL=/build/routes/_index-ZTIX2OBD.js.map

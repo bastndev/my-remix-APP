@@ -1,28 +1,27 @@
-import { Form } from '@remix-run/react';
+import { Form, useNavigate } from '@remix-run/react';
 
 export default function ContactForm({ error }: { error: string }) {
   return (
     <Form method='post' className='flex flex-col'>
       <TextField
-        label='Tu nombre:'
-        placeholder='Escribe tu nombre'
+        label='Name:'
+        placeholder='Name please'
         name='name'
       />
       <TextField
-        label='Tu correo:'
-        placeholder='Escribe tu correo'
+        label='Email:'
+        placeholder='Email please'
         name='email'
         error={error}
       />
       <TextField
-        label='Tu mensaje:'
-        placeholder='Escribe tu mensaje'
+        label='Message here:'
+        placeholder='Rite a message'
         name='message'
         type='textarea'
       />
 
-
-      <Button>Enviar</Button>
+      <Button to="/some/path">Submit</Button>
     </Form>
   );
 }
@@ -68,7 +67,19 @@ const TextField = ({
   );
 };
 
-const Button = ({ children }: { children: React.ReactNode }) => {
-  return <button className="py-2 px-4 bg-blue-500 text-white rounded-full font-semibold my-3 hover:bg-blue-600 transition-all duration-300 ease-in-out active:scale-95"
-  >{children}</button>
-}
+const Button = ({ children, to }: { children: React.ReactNode, to: string }) => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate(to);
+  };
+
+  return (
+    <button 
+      className="py-2 px-4 bg-blue-500 text-white rounded-full font-semibold my-3 hover:bg-blue-600 transition-all duration-300 ease-in-out active:scale-95"
+      onClick={handleClick}
+    >
+      {children}
+    </button>
+  );
+};
